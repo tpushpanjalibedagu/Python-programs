@@ -1,2 +1,2 @@
 # Python-programs
-Mycaptain Assignments inPython
+Mycaptain Assignments in Python
