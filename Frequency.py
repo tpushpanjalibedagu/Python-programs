@@ -8,7 +8,10 @@ def most_frequent(str1):
             dict[n] = 1
     return dict
 
-def sorted_value(d,reverse = True):
-    return dict(sorted(d.items(), key = lambda x: x[1], reverse = reverse))
+
+def sorted_value(d, reverse=True):
+    return dict(sorted(d.items(), key=lambda x: x[1], reverse=reverse))
+
+
 string = input("Please enter the string")
 print(sorted_value(most_frequent(string)))
